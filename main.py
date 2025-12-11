@@ -10,7 +10,7 @@ from datetime import datetime
 
 def connect():
 	global database, collection
-	uri = "mongodb+srv://22520365:Iamalive04@tfdb.zarmm6y.mongodb.net/?appName=TFdb"
+	uri = "mongodb+srv://user:password@tfdb.zarmm6y.mongodb.net/?appName=TFdb"
 
 	# Create a new client and connect to the server
 	client = MongoClient(uri, server_api=ServerApi('1'))
