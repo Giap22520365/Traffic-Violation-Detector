@@ -5,7 +5,6 @@ import numpy as np
 from fast_alpr import ALPR
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from urllib.parse import quote_plus
 from datetime import datetime
 
 def connect():
